@@ -1,4 +1,4 @@
-org: jhouse
+org: jhouse153
 app: auth
 service: auth-api
 
@@ -25,7 +25,7 @@ provider:
   name: aws
   region: us-east-1
   memorySize: 256
-  profile: jhouse
+  profile: jpurdie
   runtime: nodejs14.x
   stage: ${opt:stage, 'dev'}
   apiName: auth-api

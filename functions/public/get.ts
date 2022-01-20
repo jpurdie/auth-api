@@ -1,6 +1,6 @@
 export default async function (event) {
   let idReq = '';
-  if (event.pathParameters.idreq !== null) {
+  if (event.pathParameters !== null && event.pathParameters.idreq !== null) {
     idReq = event.pathParameters.idreq;
   }
 
@@ -12,6 +12,6 @@ export default async function (event) {
       /* Required for cookies, authorization headers with HTTPS */
       'Access-Control-Allow-Credentials': true,
     },
-    body: JSON.stringify(`Public API. ${idReq}`),
+    body: JSON.stringify(`Hello from API. {${idReq}}`),
   };
 }
