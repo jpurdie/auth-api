@@ -34,9 +34,9 @@
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-/*!*********************************************!*\
-  !*** ../../../functions/private/private.ts ***!
-  \*********************************************/
+/*!*****************************************!*\
+  !*** ../../../functions/private/get.ts ***!
+  \*****************************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)
@@ -63,7 +63,7 @@ var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _argume
                 'Access-Control-Allow-Credentials': true,
             },
             body: JSON.stringify({
-                message: 'Hi from Private API',
+                message: `Hello from Private GET`,
             }),
         };
     });
@@ -74,4 +74,4 @@ for(var i in __webpack_exports__) __webpack_export_target__[i] = __webpack_expor
 if(__webpack_exports__.__esModule) Object.defineProperty(__webpack_export_target__, "__esModule", { value: true });
 /******/ })()
 ;
-//# sourceMappingURL=private.js.map
+//# sourceMappingURL=get.js.map

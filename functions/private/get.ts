@@ -10,7 +10,7 @@ export default async function (event) {
       'Access-Control-Allow-Credentials': true,
     },
     body: JSON.stringify({
-      message: 'Hi from Private API',
+      message: `Hello from Private GET`,
     }),
   };
 }

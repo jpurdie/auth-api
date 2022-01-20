@@ -12,6 +12,6 @@ export default async function (event) {
       /* Required for cookies, authorization headers with HTTPS */
       'Access-Control-Allow-Credentials': true,
     },
-    body: JSON.stringify(`Hello from API. {${idReq}}`),
+    body: JSON.stringify(`Hello from Public GET`),
   };
 }

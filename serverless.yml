@@ -60,7 +60,7 @@ functions:
           method: POST
     environment:
   privateEndpoint:
-    handler: functions/private/private.default
+    handler: functions/private/get.default
     runtime: nodejs14.x
     environment:
     events:
